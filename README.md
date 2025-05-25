@@ -20,5 +20,5 @@ pip install -r requirements.txt
 
 How to run tests
 To run all tests marked for review:
-python -m pytest -v --tb=line --language=en -m need_review
+**python -m pytest -v --tb=line --language=en -m need_review**
 
