@@ -3,21 +3,6 @@
 This project is an automated testing suite for a demo online store using **Selenium** and **PyTest**.  
 The tests follow the **Page Object Model** and are split between guest and authorized user scenarios.
 
-Project structure
-selenium_course/
-├── conftest.py
-├── requirements.txt
-├── test_main_page.py
-├── test_product_page.py
-└── pages/
-├── init.py
-├── base_page.py
-├── main_page.py
-├── login_page.py
-├── product_page.py
-├── basket_page.py
-└── locators.py
-
 ## ✅ Setup instructions
 
 1. **Clone the repository** and navigate to the project folder:
