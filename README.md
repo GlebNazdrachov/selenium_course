@@ -23,6 +23,9 @@ To run all tests marked for review:
 **python -m pytest -v --tb=line --language=en -m need_review**
 
 This will run 13 tests.
-3 tests: test_user_can_add_product_to_basket, test_guest_cant_see_product_in_basket_opened_from_product_page, test_guest_can_go_to_login_page_from_product_page
+3 tests:
+-  test_user_can_add_product_to_basket
+-  test_guest_cant_see_product_in_basket_opened_from_product_page
+-  test_guest_can_go_to_login_page_from_product_page
 
-10 test: test_guest_can_add_product_to_basket for all promo ofers from promo=offer0 to promo=offer10, except promo=offer7-xfail
+10 tests: test_guest_can_add_product_to_basket for all promo ofers from promo=offer0 to promo=offer10, except promo=offer7-xfail
